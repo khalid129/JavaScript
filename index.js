@@ -151,7 +151,7 @@
 // 8️⃣    String Operator 👇👇👇
 
 // 👉 The concetenation operator is ( + ) which concetenate two string value and return  a single string
- 
+
 // 🌟🌟🌟🌟🌟
 // var myFirstName = "Muhammad ";
 // var myLastName = "Khalid";
@@ -531,7 +531,7 @@
 //     let table =12;
 //     console.log(`${table} * ${num} = ${table*num}`);
 // }
- 
+
 // 3️⃣    DEFAULT PARAMETER
 // 💡 Default function Parameter allow a Parameter to be initilaized with a defults value if no value or undefined value is passed
 
@@ -725,6 +725,7 @@
 
 // console.log(filterPrice);
 
+// 3️⃣    HOW TO SORT AND COMPARE AN ARRAY
 
 // Array.prototype.sort() 🙋‍♂️
 // sort the element of an array and return sorted array default sorting is ascending 
@@ -738,11 +739,160 @@
 // console.log(array1.sort());
 
 
-
-
-
-// 3️⃣    HOW TO SORT AND COMPARE AN ARRAY
 // 4️⃣    HOW TO INSERT, ADD, REPLCAE AND DELETE FUNCTION IN AN ARRAY (CRUD)
+
+// Array.prototype.push() 🙋‍♂️
+// The push method add one or more element to the end of an array and return the new length of the arrary
+
+// const subject = ['English','Urdu','Maths','Science','Computer'];
+// const count = subject.push('General Knowledge');  // 👉 It return new length of an array
+// console.log(subject);
+// console.log(count);
+
+
+// Array.prototype.unshift() 🙋‍♂️
+// It add at the first index of an array and change the length of an array
+// const count = subject.push('Drawing','Physics','Chemistry');
+// console.log(subject);
+// console.log(count);
+
+// const count = subject.unshift('GK');  // 👉 It return new length of an array 
+// console.log(subject);
+// console.log(count);
+
+// 🏳️ 2nd Example
+
+// const myNumber = [1,2,3,5];
+// const myCount = myNumber.unshift(4,6);
+// console.log(myNumber, myCount); 
+
+
+// Array.prototype.pop() 🙋‍♂️
+// It remove the last element from an array and return that element. It also change the length of an array
+
+// const flower = ['Rose','Sunflower','Tulips','Orchids','Carnations'];
+// console.log(flower);
+// console.log(flower.pop());
+// console.log(flower);
+
+
+// Array.prototype.shift() 🙋‍♂️
+// It remove the first element from an array and return that element. It also change the length of an array
+// console.log(flower);
+// console.log(flower.shift());
+// console.log(flower);
+
+// 💯 CHALANGE 💯
+
+// Array.prototype.splice() 🙋‍♂️
+// Adds or remove element from an array
+
+// 1️⃣ Add Dec at the end of an array?
+// 2️⃣ What is the return value of Splice method?
+// 3️⃣ Update april to April?
+// 4️⃣ Delete June from an array?
+
+// const months = ['Jan','March','april','June','July'];
+
+// Solution 1️⃣
+// const newMonth = months.splice(mon ths.length,0,'Dec');  // 👉 months.length is index where we add Dec
+// console.log(months);
+
+// Solution 2️⃣
+
+// console.log(newMonth);   // 👉 It return an array contain delelted item otherwise an empty array
+
+// Solution 3️⃣
+
+// const indexOfMonth = months.indexOf('april');
+
+// if(indexOfMonth != -1){
+//     const updateMonth = months.splice(indexOfMonth,1,'April');
+//     console.log(`${updateMonth} updated sucessfuly`);
+// }
+// else{
+//     console.log('No Such Data Found!');
+// }
+// console.log(months);
+
+// Solution 4️⃣
+
+// const indexOfMonth = months.indexOf('June');
+
+// if(indexOfMonth != -1){
+//     const updateMonth = months.splice(indexOfMonth,1);
+//     console.log(`${updateMonth} deleted sucessfuly`);
+// }
+// else{
+//     console.log('No Such Data Found!');
+// }
+// console.log(months);
+
+
 // 5️⃣    Map(), Reduce(), Filter
+
+// Array.prototype.map() 🙋‍♂️
+// It return a new array containing  the result of calling a function on every element in this array.
+// It retur a new array without mutating the original one
+
+// const array1 = [1,2,3,4,5,6,7,8,9];
+
+// let newArr = array1.map((curElem, index, arr)=>{
+//     return `Index No = ${index} and value = ${curElem}`
+// });
+// console.log(newArr);
+
+
+// It will calculate the sqruare of the array element
+// let newArr = array1.map((curElem, index, arr)=>{
+//     return `Square of ${curElem} is ${curElem**2}`
+// });
+// console.log(newArr);
+
+// It will calculate the sqruare root of the array element
+// let sqrArray = [25,36,49,64,81];
+// let squareRoot = sqrArray.map((curElem, index, arr)=>{
+//     return `Square root of ${curElem} = ${Math.sqrt(curElem)}`;
+// });
+// console.log(squareRoot);
+
+// It will multiply array element with 2 and return sum of those value which is greater than equal to five 
+// let arr = [1, 2, 3, 4, 5, 6];
+// let sortArr = arr.map((curElem) => curElem * 2).filter((curElem) => curElem >= 5).reduce((acumlator, curElem) => acumlator += curElem);
+
+// console.log(sortArr);
+
+
+// Reduced Method 
+// flatten an array means to conver the 3d or 2d array into a single dimensional array
+// The reducer fuction take four element
+// 1️⃣ Acumulator   👉 gather the values togehter
+// 2️⃣ Current Value
+// 3️⃣ Current index
+// 4️⃣ Source Array
+
+// let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let sum = arr1.reduce((acumulator, curElem) => {
+//     debugger;
+//     return acumulator += curElem;
+// });
+// console.log(sum);
+
+
+// Converting 2d or 3d Array into 1d Array
+
+// const arr1 = [['zone_1', 'zone_2'], 
+//              ['zone_3', 'zone_4'], 
+//              ['zone_5', 'zone_6'], 
+//              ['zone_7', 'zone_8']];
+
+// let flatArr1 = arr1.reduce((accum, curElem)=>{
+//     debugger;
+//     return accum.concat(curElem);
+// });
+
+// console.log(flatArr1);
+
 
 
