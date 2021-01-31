@@ -1,6 +1,21 @@
-// 🙋‍♂️
-// 👍 👍 👍 👍 JavaScript 👍 👍 👍 👍  💯
-// 1️⃣    Variable in JavaScript
+//Important Note for sysmbol:
+// 1️⃣,2️⃣ => numbers
+// 💯 => start new topic
+// 👉 ☝️ 👇 👈 => directed toward specific direction for some note
+// 💡 => must Remember
+// 📔 => chunks pf code
+// 🌟🌟🌟🌟🌟 => proper code or some task
+// 😩 => problem with code, methods etc
+// 🙋‍♂️ => Methods in Javascripts
+// 🤔 => Think
+// ➿➿ => Loop
+
+
+
+// 💯 👍 👍 👍 👍 JAVASCRIPT 👍 👍 👍 👍  💯
+
+// 1️⃣    VARIABLE IN JAVASCRIPT
+
 // (Key) (Name) = (Value)
 // ☝️ is a pattern to declare a variable a in javascript
 
@@ -9,7 +24,7 @@
 // var myName ="Khalid"
 // console.log(myName);
 
-// 2️⃣    Data type in JavaScript
+// 2️⃣    DATA TYPE IN JAVASCRIPT
 
 // 🔢
 // var value1 = 2;
@@ -28,6 +43,7 @@
 // console.log(typeof(myName));
 
 // 🔺 NULL Vs Undefined 🔺
+
 // 💡 A variable is declare but not assign a value is called an undefined variable
 // 💡 A variable is daclare and assigned a value Null to it so it called Null variable
 
@@ -39,7 +55,7 @@
 // var value2 ;
 // console.log(value2);
 
-// 3️⃣    Expression and Operation
+// 3️⃣    EXPRESSION AND OPERATION
 
 // 💡 Expression is combination of Operand and an Operation
 
@@ -76,12 +92,12 @@
 //     console.log("You enter a valid number");
 // }
 
-// 4️⃣    Assignment Operator ( = )
+// 4️⃣    ASSIGNMENT OPERATOR ( = )
 
 // var value1 = 10;
 // console.log(value1);
 
-// 5️⃣     Increment ( ++ ) Decerement ( -- )  Operator 👇👇👇
+// 5️⃣     INCREMENT ( ++ ) DECREMENT ( -- )  OPERATOR 👇👇👇
 
 // 📔
 // var num = 5;
@@ -107,7 +123,7 @@
 // Pre Decrement ☝️
 // console.log(num);
 
-// 6️⃣ Comparision Operator ( <=,>=,<,>,!=,==) 👇👇👇
+// 6️⃣ COMPARISION OPERATOR ( <=,>=,<,>,!=,==) 👇👇👇
 
 // var value1 = 10;
 // var value2 = -10;
@@ -136,7 +152,7 @@
 // console.log(value1!=value2);
 // Not Equalto operator ☝️
 
-// 7️⃣    Logical Operator 👇👇👇
+// 7️⃣    LOGICAL OPERATOR 👇👇👇
 
 // 📔
 // console.log(value1>0 && value2 <0);
@@ -148,7 +164,7 @@
 // console.log(!(value1>=0 || value2 !=0));
 // 👉 NOT Operator
 
-// 8️⃣    String Operator 👇👇👇
+// 8️⃣    STRING OPERATOR 👇👇👇
 
 // 👉 The concetenation operator is ( + ) which concetenate two string value and return  a single string
 
@@ -203,7 +219,8 @@
 
 // 💯 CONTROL STATEMENT AND LOOP STATEMENT 💯
 
-// 1️⃣    If Else Statement 
+// 1️⃣    if else STATEMENT
+
 // 💡 If statement execute the statement when it its condition is true 
 // 💡 If statement is false so Else statement would be execute
 
@@ -238,7 +255,8 @@
 //     console.log(`The year ${LeapYear} is not a leap year`);
 // }
 
-// 2️⃣     Falsy Values in JavaScript 
+// 2️⃣     FALSY VALUE IN JAVASCRIPT
+
 // 💡💡 0, "", undefined, null, NaN these are falsy value 💡💡
 
 // 🌟🌟🌟🌟🌟🌟🌟
@@ -251,6 +269,7 @@
 // } 
 
 // 3️⃣    CONDITIONAL TERNARY OPERATOR
+
 // 💡 Conditional ternory operator take three operands
 // 💡 variablename = (Condition)?(Value1):(Value2)
 
@@ -329,6 +348,7 @@
 // 💡 do While loop is running atleast one time when condition is not true
 
 // 6️⃣    FOR LOOP   ➿➿
+
 // For(Initializer;Conditionl:Iterator){
 //     ➡️ Loop Block Code to be Execute
 // }
@@ -343,7 +363,7 @@
 
 // 💯 MATHEMATICAL TABLE OF NUMBER 💯
 
-// 📊      Table of 8️⃣
+// 📊      TABLE OF 8️⃣
 
 // var table1 = 8;
 // var num;
@@ -353,7 +373,7 @@
 // }
 // console.log(`\n`);
 
-// 📊     Table of 9️⃣ 
+// 📊     TABLE OF 9️⃣ 
 
 // 🌟🌟🌟🌟🌟🌟🌟
 // console.log(`Table of 9`);
@@ -365,7 +385,7 @@
 // console.log(`\n`);
 
 
-// 📊        Table of 1️⃣2️⃣
+// 📊        TABLE OF 1️⃣2️⃣
 
 // 🌟🌟🌟🌟🌟🌟🌟
 // console.log(`Table of 12`);
@@ -376,7 +396,7 @@
 // }
 // console.log(`\n`);
 
-// 📊         Table of 1️⃣5️⃣
+// 📊         TABLE OF 1️⃣5️⃣
 
 // 🌟🌟🌟🌟🌟🌟🌟
 // console.log(`Table of 15`);
@@ -389,7 +409,8 @@
 
 // 💯 FUNCTION IN JAVASCRIPT 💯
 
-// 1️⃣    Function Definition
+// 1️⃣    FUNCTION DEFINITON
+
 // 👉 Function is a block of code design to perform a particular task
 // 💡 Before used a function we have to define it show 👇
 // 💡 FuncationName (){
@@ -403,13 +424,15 @@
 //     console.log(total);
 // }
 
-// 2️⃣    Calling a Function
+// 2️⃣    CALLING A FUNCTION
+
 // 💡 A javascript fucntion is execute when it is called
 
 // console.log(sum()); // 👈 it will give undefined because function not return any thing
 // sum();
 
-// 3️⃣    Function Parameter
+// 3️⃣    FUNCTION PARAMETER
+
 // 💡 Function Parameter are the name listed in the function definition
 // 📔
 // function sum(a,b){
@@ -417,16 +440,19 @@
 //     console.log(total);
 // }
 
-// 4️⃣    Function Argument
+// 4️⃣    FUNCTION ARGUMENT
+
 // 💡 Function Argument are the real value passed in function calling
 //   sum(10,90);
 // sum()   // 👈 give NaN because expect two numbers
 
-// 5️⃣    Function Expression 
+// 5️⃣    FUNCTION EXPRESSION
+
 // 💡 Create a function and put it into a variable
 // 👉 var funcExp = sum(10,4)
 
-// 6️⃣    Return Keyword
+// 6️⃣    RETURN KEYWORD
+
 // 💡 When JavaScript reaches the return statement a function would be stopped
 
 // 🌟🌟🌟🌟🌟🌟🌟
@@ -437,7 +463,8 @@
 // console.log(sub1);
 // console.log(`${sub(12,5)}`);
 
-// 7️⃣    Anonumous Keyword
+// 7️⃣    ANONYMOUS FUNCTION
+
 // 💡 Those fuction whose has no name
 //  Anonymous Function Expression 👇 
 // {var funcExp = function(a,b){
@@ -533,6 +560,7 @@
 // }
 
 // 3️⃣    DEFAULT PARAMETER
+
 // 💡 Default function Parameter allow a Parameter to be initilaized with a defults value if no value or undefined value is passed
 
 // function mul(a,b=5){    // 👈 b=5 is a default value of b
@@ -544,6 +572,8 @@
 
 
 // 5️⃣    OBJECT PROPERTIES
+
+
 // 6️⃣    ARROW FUNCTION
 
 // 👻 TRADITIONAL WAY OF FUNCTION 👇
@@ -576,6 +606,7 @@
 // console.log(sum());
 
 // 7️⃣    REST OPERATORS
+
 // 8️⃣    SPREAD OPERATORS
 
 // 💯   ARRAYS IN JAVASCRIPT    💯
@@ -671,34 +702,38 @@
 // 2️⃣    SEARCHING AND FILTER IN AN ARRAY 😃
 
 // Array.prototype.indexOf() 🙋‍♂️
-// it return (least) index of the search element if not found return -1
-// indexOf search in forward direction 
+// 💡 it return (least) index of the search element if not found return -1
+// 💡 indexOf search in forward direction 
 
+// 📔
 // var courses = ['SDA','WE','DBMS','HCI','AE','PS'];
 // console.log(courses.indexOf('SDA',2));  
 
 // 👆 .indexOf('SDA',2) 👈 2 show the index from search is start 
 
 // Array.prototype.lastIndexOf() 🙋‍♂️
-// it return last (greatest) index of the search element if not found return -1
-// lastIndexof search in backward direction
+// 💡 it return last (greatest) index of the search element if not found return -1
+// 💡 lastIndexof search in backward direction
 
+// 📔
 // var courses = ['SDA','WE','DBMS','HCI','AE','PS'];
 // console.log(courses.lastIndexOf('SDA',2)); 
 
 // Array.prototype.includes() 🙋‍♂️
-// it check a desired string is included in array or not
-// It always do forward search
+// 💡 it check a desired string is included in array or not
+// 💡 It always do forward search
 
+// 📔
 // var courses = ['SDA','WE','DBMS','HCI','SDA','AE','PS'];
 // console.log(courses.includes('HCI')); 
 
-// It return true if string found else false
+// 💡 It return true if string found else false
 
 // Array.prototype.find() 🙋‍♂️
-// Return desired string if it found an array otherwise return undefined
+// 💡 Return desired string if it found an array otherwise return undefined
 // 😩 Problem is that it return only 1️⃣ element
 
+// 🌟🌟🌟🌟🌟
 // const prices = [200,300,350,400,450,500,600];
 // const findPrice = prices.find((currVal)=>{
 //     return currVal < 400;
@@ -710,13 +745,14 @@
 // console.log(prices.find((curVal)=> curVal>400));
 
 // Array.prototype.findIndex() 🙋‍♂️
-// Return the index in an array if desired string is found or -1 if not found
+// 💡 Return the index in an array if desired string is found or -1 if not found
 
 // console.log(prices.findIndex((curVal)=> curVal > 3350));
 
 // Array.prototype.filter() 🙋‍♂️
-// Return a new array containig all elements of the calling array for which the provided filtering function return true if condition not satisfy it return empty array
+// 💡 Return a new array containig all elements of the calling array for which the provided filtering function return true if condition not satisfy it return empty array
 
+// 🌟🌟🌟🌟🌟
 // const prices = [200,300,350,400,450,500,600];
 
 // const filterPrice = prices.filter((element,index)=>{
@@ -728,9 +764,9 @@
 // 3️⃣    HOW TO SORT AND COMPARE AN ARRAY
 
 // Array.prototype.sort() 🙋‍♂️
-// sort the element of an array and return sorted array default sorting is ascending 
-// It work with string properly because it convert array in string than sorted
-// 😩 Problem it return incorrect result when sort a number
+// 💡 sort the element of an array and return sorted array default sorting is ascending 
+// 💡 It work with string properly because it convert array in string than sorted
+// 😩 Problem it return incorrect result when sort a number  👇
 
 // const month = ['March','Jun','Feb','Jan','Dec','Nov'];
 // console.log(month.sort());
@@ -742,8 +778,9 @@
 // 4️⃣    HOW TO INSERT, ADD, REPLCAE AND DELETE FUNCTION IN AN ARRAY (CRUD)
 
 // Array.prototype.push() 🙋‍♂️
-// The push method add one or more element to the end of an array and return the new length of the arrary
+// 💡 The push method add one or more element to the end of an array and return the new length of the arrary
 
+// 📔
 // const subject = ['English','Urdu','Maths','Science','Computer'];
 // const count = subject.push('General Knowledge');  // 👉 It return new length of an array
 // console.log(subject);
@@ -751,7 +788,7 @@
 
 
 // Array.prototype.unshift() 🙋‍♂️
-// It add at the first index of an array and change the length of an array
+// 💡 It add at the first index of an array and change the length of an array
 // const count = subject.push('Drawing','Physics','Chemistry');
 // console.log(subject);
 // console.log(count);
@@ -762,14 +799,16 @@
 
 // 🏳️ 2nd Example
 
+// 📔
 // const myNumber = [1,2,3,5];
 // const myCount = myNumber.unshift(4,6);
 // console.log(myNumber, myCount); 
 
 
 // Array.prototype.pop() 🙋‍♂️
-// It remove the last element from an array and return that element. It also change the length of an array
+// 💡 It remove the last element from an array and return that element. It also change the length of an array
 
+// 📔
 // const flower = ['Rose','Sunflower','Tulips','Orchids','Carnations'];
 // console.log(flower);
 // console.log(flower.pop());
@@ -777,7 +816,7 @@
 
 
 // Array.prototype.shift() 🙋‍♂️
-// It remove the first element from an array and return that element. It also change the length of an array
+// 💡 It remove the first element from an array and return that element. It also change the length of an array
 // console.log(flower);
 // console.log(flower.shift());
 // console.log(flower);
@@ -785,7 +824,7 @@
 // 💯 CHALANGE 💯
 
 // Array.prototype.splice() 🙋‍♂️
-// Adds or remove element from an array
+// 💡 Adds or remove element from an array
 
 // 1️⃣ Add Dec at the end of an array?
 // 2️⃣ What is the return value of Splice method?
@@ -795,7 +834,7 @@
 // const months = ['Jan','March','april','June','July'];
 
 // Solution 1️⃣
-// const newMonth = months.splice(mon ths.length,0,'Dec');  // 👉 months.length is index where we add Dec
+// const newMonth = months.splice(months.length,0,'Dec');  // 👉 months.length is index where we add Dec
 // console.log(months);
 
 // Solution 2️⃣
@@ -804,6 +843,7 @@
 
 // Solution 3️⃣
 
+// 🌟🌟🌟🌟🌟
 // const indexOfMonth = months.indexOf('april');
 
 // if(indexOfMonth != -1){
@@ -817,6 +857,7 @@
 
 // Solution 4️⃣
 
+// 🌟🌟🌟🌟🌟
 // const indexOfMonth = months.indexOf('June');
 
 // if(indexOfMonth != -1){
@@ -832,9 +873,10 @@
 // 5️⃣    Map(), Reduce(), Filter
 
 // Array.prototype.map() 🙋‍♂️
-// It return a new array containing  the result of calling a function on every element in this array.
-// It retur a new array without mutating the original one
+// 💡 It return a new array containing  the result of calling a function on every element in this array.
+// 💡 It retur a new array without mutating the original one
 
+// 📔
 // const array1 = [1,2,3,4,5,6,7,8,9];
 
 // let newArr = array1.map((curElem, index, arr)=>{
@@ -842,35 +884,39 @@
 // });
 // console.log(newArr);
 
-
-// It will calculate the sqruare of the array element
+// 📔
+// It will calculate the sqruare of the array element 👇
 // let newArr = array1.map((curElem, index, arr)=>{
 //     return `Square of ${curElem} is ${curElem**2}`
 // });
 // console.log(newArr);
 
-// It will calculate the sqruare root of the array element
+// 📔
+// It will calculate the sqruare root of the array element  👇
 // let sqrArray = [25,36,49,64,81];
 // let squareRoot = sqrArray.map((curElem, index, arr)=>{
 //     return `Square root of ${curElem} = ${Math.sqrt(curElem)}`;
 // });
 // console.log(squareRoot);
 
-// It will multiply array element with 2 and return sum of those value which is greater than equal to five 
+// 📔
+// It will multiply array element with 2 and return sum of those value which is greater than equal to five  👇
 // let arr = [1, 2, 3, 4, 5, 6];
 // let sortArr = arr.map((curElem) => curElem * 2).filter((curElem) => curElem >= 5).reduce((acumlator, curElem) => acumlator += curElem);
 
 // console.log(sortArr);
 
 
-// Reduced Method 
-// flatten an array means to conver the 3d or 2d array into a single dimensional array
-// The reducer fuction take four element
+// Reduced Method () 🙋‍♂️
+// 💡 flatten an array means to conver the 3d or 2d array into a single dimensional array
+// 💡 The reducer fuction take four element
 // 1️⃣ Acumulator   👉 gather the values togehter
 // 2️⃣ Current Value
 // 3️⃣ Current index
 // 4️⃣ Source Array
 
+
+// 🌟🌟🌟🌟🌟
 // let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // let sum = arr1.reduce((acumulator, curElem) => {
@@ -880,13 +926,14 @@
 // console.log(sum);
 
 
-// Converting 2d or 3d Array into 1d Array
+// 💡 Converting 2d or 3d Array into 1d Array
 
 // const arr1 = [['zone_1', 'zone_2'], 
 //              ['zone_3', 'zone_4'], 
 //              ['zone_5', 'zone_6'], 
 //              ['zone_7', 'zone_8']];
 
+// 🌟🌟🌟🌟🌟
 // let flatArr1 = arr1.reduce((accum, curElem)=>{
 //     debugger;
 //     return accum.concat(curElem);
@@ -895,4 +942,190 @@
 // console.log(flatArr1);
 
 
+// 💯 STRING IN JAVASCRIPT 💯
 
+//  1️⃣   ESCAPE CHARACTER
+
+// 💡 A javaSrcipt string is zero or more chracters written inside a quotes
+// 💡 String is used for storing and manipulating a text.
+// 💡 You can use single or double quotes.
+// 💡 String can be created as primitives, from sting literals, or as object, using string constructor
+
+// 📔
+// let myName = 'Khalid';
+// let myProfession = "Software Engineering";
+// let emptyString = "";
+// let newString = new String('JavaScript String');     // 👉 No need to use it
+
+// console.log(`${myName}\n${myProfession}\n${newString}`);
+
+// How to find the length of string
+// String.prototype.length 🙋‍♂️
+
+// 📔
+// console.log(myName.length);         // 👉 It return the length of a string (Space is also treat as string)
+
+// let mySentence = 'I am am \"Full stack \" web developer ';  //(\" is  eacape chracter for writter double quotes)
+// console.log(mySentence);
+
+
+//  2️⃣   FINDING A STRING IN A STRING
+
+
+// String.prototype.indexOf(searchValue, [from index]) 🙋‍♂️
+// 💡 It return the index of the first occurance of the specified string
+// 💡 It give index number to individual letter
+
+// 📔
+// let myEducation = "I am student of software engineering at NEDUET";
+// let position1 = console.log(myEducation.indexOf('student',0));
+// let position2 = console.log(myEducation.lastIndexOf('student',0)); //  👈 lastIndexof is search in back ward direction
+
+
+//  3️⃣   SEARCHING FOR A STRING IN A STRING
+
+
+// String.prototype.search(string) 🙋‍♂️
+// 💡 The search() method searches the string and return position of specified string
+// 😩 It can not take the second start position as an argument like indexOf methos do so.
+
+// 📔
+// const myInfo = "I am student of software engineering at NEDUET";
+// let searchData = myInfo.search('student');
+// console.log(searchData);
+
+
+//  4️⃣   E\XTRACTING STRING PART
+
+// There are three method for extracting the part of the string
+
+// 💡 slice(start, end)
+// 💡 substring(start, end)
+// 💡 substr(start, length)
+
+// The Slice() Method 🙋‍♂️
+// 💡 Ectract tthe part of the string and return the extracted part in dew string
+// 💡 it take two argument start and edn position and end is not included
+// 💡 Original string will not be changes
+
+// 📔
+// const myBioData = "I am student of software engineering at NEDUET";
+// let newString1 = myBioData.slice(5,12);      // 👈 end point must given other wise give an error
+// let newString2 = myBioData.slice(5,-4);  
+// let newString3 = myBioData.slice(5);  
+// console.log(newString1,newString2,newString3);
+
+
+// 💯 CHALLANGE 💯
+// Display 200 character of a string
+// 🌟🌟🌟🌟🌟
+// let myString = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatibus, est tempore sed reprehenderit enim sapiente eum voluptates sit alias quae, voluptatum corrupti vel totam quasi beatae dolorum eaque reiciendis?";
+// let dispString = myString.slice(0,200);
+// console.log(dispString);
+
+
+// The substring() Method 🙋‍♂️
+// 💡 It is similar to slice the difference is that substring() cannot accept negative indexs;
+// 💡 If we give negative value than chracter are counted from the 0th position start index positions
+
+// let fruit = "Apple, Banana, Mango, Grapes, Oranges";
+// let newFruit = fruit.substring(0,12);
+// console.log(newFruit);
+
+
+// The substr() Method 🙋‍♂️
+// 💡 it is similar to slice()
+// 💡 difference is that the second parameter specifies the length of the exxtracted part.
+// 😩you can not  negative number br=ecause it not work in normal condition 
+// 💡 if will give ONLY negative so it count from the reverse direction 👇
+
+// 📔
+// let myVegatable = "Patato, Onion, Tomato, Chilli, Ladufinger, Bringle";
+// let newVegatable = myVegatable.substr(7,-3);
+// let newVegatable = myVegatable.substr(-7);
+// console.log(newVegatable);
+
+
+//  5️⃣   REPLACING A STRING CONTENT
+
+// String.prototype.replace(searchFor, replcaeWith) 🙋‍♂️
+// 💡 It replcae a specified value to an another value
+// 💡 Point to be remember 
+// 1️⃣    This method does not change the string and return a new string
+// 2️⃣    By default it replcae only rhe first match
+
+// 📔
+// const myBioData = "I am student of software engineering at NEDUET";
+// let newData = myBioData.replace('student','Student');
+// console.log(newData);
+// console.log( myBioData);
+
+
+
+//  6️⃣   EXTRACTING STRING CHARACTERS
+
+// There are 3 method for extracting string characters
+
+// 💡 charAt(position)
+// 💡 charCodeAt(position)
+// 💡 Property access [ ]
+
+// The charAt Method() 🙋‍♂️
+// 💡 It return the character at a specified index position in a string
+
+// let str = 'HELLO WORLD';
+// let character = str.charAt(0);
+// console.log(character);
+
+// The charCodeAt Method() 🙋‍♂️
+
+// find Character code of specified character
+
+// let charCode = str.charCodeAt(0);
+// console.log(charCode); 
+
+// 💯 CHALANGE 💯
+// Find chracter code of the last element
+
+// let lastCharacter = str.length - 1;
+// let charCode = str.charCodeAt(lastCharacter);
+// console.log(charCode);
+
+// The property access 🙋‍♂️  [ ]
+
+// let str = 'HELLO WORLD';
+// console.log(str[0]);
+
+
+
+
+//  7️⃣   OTHER USEFUL METHOD
+
+// 📔
+// let myCourse = 'web developement';
+// console.log(myCourse.toLowerCase());
+// console.log(myCourse.toUpperCase());
+
+// let str1 = "HELLO";
+// let str2 = "WORLD";
+// console.log(str1.concat(" ",str2));
+
+
+// String.trim() 🙋‍♂️
+// 💡 The trim method remove the white space from both sides
+// 😩 It can not trim the space between the string
+
+// var str = "         Hello World!        ";
+// var str1 = "         Hello      World!        ";
+// console.log(str.trim());
+// console.log(str1.trim());
+
+
+// String.Split()   🙋‍♂️
+// 💡 split() convert the string into ana rray;
+
+// let txt = "a,b,c,d,e,f";
+// console.log(txt.split(" , "));
+
+
+// 💯 DATE & TIME IN JAVASCRIPT 💯
