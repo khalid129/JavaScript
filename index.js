@@ -1129,3 +1129,195 @@
 
 
 // 💯 DATE & TIME IN JAVASCRIPT 💯
+
+// 💡 JavScript Date object represent a single moment in time in a platform independent format.
+// 💡 Date object contain a number that represent milisecond since 1 Januaury 1970 UTC.
+
+// 👉 Creating a Date object
+// There are 4️⃣ way to create a new date object;
+
+// new Date();
+// new Date(year,month,day,hourse,minute,second,millisecond);
+// // it take 7️⃣ argument
+// new Date(millisecond);
+// // we can not avoid month section
+// new Date(date String)
+
+
+// new Date() 🙋‍♂️
+// Date object are created with the new Date() constructor
+
+// 📔
+// let curDate = new Date();
+// console.log(curDate);
+// console.log(curDate.toString());
+// console.log(curDate.toLocaleDateString());
+// console.log(curDate.toLocaleString());
+
+
+// Date.now() 🙋‍♂️
+// 💡 Return the numeric value corresponding to the current time the number of millisecond elapsed since January 1, 1970 00:00:00 UTC
+
+// console.log(Date.now());
+
+
+// new Date(year, month, ....) 🙋‍♂️
+// 💡 Note Javascript counts month from 0 to 11 
+// 💡 Year and month argument is compulsory otherwise give 1970, 1 January
+// 💡 January is 0 and December is 11
+
+// let d = new Date(2021,0,31,19,10,11,10);
+// console.log(d.toLocaleString());
+
+// new Date(dateString) 🙋‍♂️
+// Cretes a new date object from adate string
+
+// let d = new Date("January 31 2021");
+// console.log(d.toLocaleString());
+
+// 📔
+// new Date(millisecond) 🙋‍♂️
+// var d = new Date(86400000*2);
+// console.log(d.toLocaleString());
+
+
+// 👉 Date Methods
+
+// 📔
+// How to get Individual Date
+// const currDate = new Date();
+// console.log(currDate.toLocaleString());
+// console.log(currDate.getFullYear());
+// console.log(currDate.getMonth());       // 👉 0-11 Jan to Dec
+// console.log(currDate.getDate());
+// console.log(currDate.getDay());
+// console.log(currDate.toLocaleTimeString());
+
+
+// How to set Individual Date
+
+// 📔
+// const currDate = new Date();
+// console.log(currDate.toLocaleString());
+// console.log(currDate.setFullYear(2021));
+// // SetFullYear method canoptionally set month and day
+// console.log(currDate.setMonth(0));       // 👉 0-11 Jan to Dec
+// console.log(currDate.setDate(31));
+// console.log(currDate.toLocaleTimeString());
+
+
+//  👉 TimeMethod
+
+// const curTime = new Date();
+
+// // How to get individual Times
+
+// console.log(curTime.getTime());
+// 💡 // It return the number of milliseconds since january 1,1970 👆
+
+// console.log(curTime.getHours());
+// 💡 // It return the hourse of a date as a (0-23)
+
+// console.log(curTime.getMinutes());
+// console.log(curTime.getSeconds());
+// console.log(curTime.getMilliseconds());
+
+
+// How to set individual Times
+
+// 📔
+// console.log(curTime.setTime());
+// console.log(curTime.setHours(5));
+// console.log(curTime.setMinutes(5));
+// console.log(curTime.setSeconds(5));
+// console.log(curTime.setMilliseconds(5));
+
+
+
+// 💯 MATH OBJECT IN JAVASCRIPT 💯
+
+// It allow you to perform mathematical task on number
+
+// console.log(Math.PI);       // 🙋‍♂️
+
+// Math.round(); 🙋‍♂️
+// 💡 return the value of x rounded to its nearest integer
+
+// let num = 1.5645;
+// console.log(Math.round(num));
+
+// Math.pow(); 🙋‍♂️
+// 💡 Math.pow(x,y) return the value of x to the power y
+
+// console.log(Math.pow(2,3));
+
+
+// Math.sqrt(); 🙋‍♂️
+// 💡 Find the square root of that number
+
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(16));
+// console.log(Math.sqrt(9));
+// console.log(Math.sqrt(4));
+
+
+// Math.abs(); 🙋‍♂️
+// 💡 Math.abs(x) return the absolute positive value of x
+
+// console.log(Math.abs(-345));
+// console.log(Math.abs(4-6));
+
+
+// Math.ceil(); 🙋‍♂️
+// 💡 Math.ceil(x) returns the value of x rounded up to its nearest integer
+
+
+// console.log(Math.ceil(4.5));
+// console.log(Math.ceil(-99.01));
+
+// Math.floor(); 🙋‍♂️
+// 💡 Math.ceil(x) returns the value of x rounded down to its nearest integer
+
+
+// console.log(Math.floor(4.5));
+// console.log(Math.floor(-99.01));
+
+
+// Math.min(); 🙋‍♂️
+// 💡 Math.min()  can be used to find the lowest value in a list of argument
+
+// console.log(Math.min(10,56,5.6,46,5.5999));
+
+
+// Math.max(); 🙋‍♂️
+// 💡 Math.min()  can be used to find the lowest value in a list of argument
+
+
+// console.log(Math.max(10,56,5.6,46,5.5999));
+
+
+// Math.random(); 🙋‍♂️
+// 💡 Math.random() returns a random number between 0 (inclusive), and 1 (excludes)
+
+// console.log(Math.floor(Math.random()*10));      // 👉 0 to 9
+
+
+// Math.trunc; 🙋‍♂️
+// 💡 The trunc() return the integer part of a number
+
+// console.log(Math.trunc(4.5));
+// console.log(Math.trunc(-99.56));
+// console.log(Math.trunc(0.045656));
+
+
+// 💡 if argument is a positive number, Math.trunc() is equivalent to Math.floor(), Otherwise is equivalent to Math.ceil()
+
+
+// 💯 DOM IN JAVASCRIPT 💯
+
+// 1️⃣   Window vs Document
+// 2️⃣   DOM vs BOM 
+// 3️⃣   DOM Navigation
+// 4️⃣   Searching and getting Element Reference
+
+ 
