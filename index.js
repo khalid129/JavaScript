@@ -1316,6 +1316,9 @@
 // 💯 DOM IN JAVASCRIPT 💯
 
 // 1️⃣   Window vs Document
+
+// document.getElementById("root")
+
 // 2️⃣   DOM vs BOM 
 // 3️⃣   DOM Navigation
 // 4️⃣   Searching and getting Element Reference
