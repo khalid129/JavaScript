@@ -1320,7 +1320,7 @@
 // Window is a global object
 // Document is the chile of the window object
 
-
+document.getElementById("root")
 
 // 2️⃣   DOM vs BOM 
 // 3️⃣   DOM Navigation
