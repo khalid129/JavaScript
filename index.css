@@ -1,0 +1,5 @@
+.center_div{
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+  }
