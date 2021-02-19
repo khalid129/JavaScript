@@ -1323,6 +1323,11 @@ console.log(Math.abs(-4.4));
 
 
 // 2️⃣   DOM vs BOM 
+// document.getElementById("myBtn").addEventListener("click", function() {
+//   document.getElementById("demo").innerHTML = "Hello World";
+// });
+
+
 // 3️⃣   DOM Navigation
 // 4️⃣   Searching and getting Element Reference
 
