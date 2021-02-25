@@ -1319,16 +1319,35 @@ console.log(Math.abs(-4.4));
 // 1️⃣   Window vs Document
 
 // Window is a global object
-// Document is the chile of the window object
-
+// Document is the child of the window object
+// When we use DOM so we use document. always
 
 // 2️⃣   DOM vs BOM 
 // document.getElementById("myBtn").addEventListener("click", function() {
 //   document.getElementById("demo").innerHTML = "Hello World";
 // });
 
+// BOM is browser object model deal with broweser component
+// Screen, history, location, frames these are deals with BOM
+
+// Go Back Function
+// function goBack(){
+//     window.history.back();
+// }
+
+// Function/Alert/Confirm/prompt are laso a part of BOM
+// They are directly not related to the documnet,
+// but represent pure browser method of communicating with the users;
+
+// Direct your page to other pages
+// alert(location.href);
+// if(confirm("Want to visit Youtube")){
+//     location.href = "https://www.youtube.com/"
+// }
 
 // 3️⃣   DOM Navigation
-// 4️⃣   Searching and getting Element Reference
 
- 
+
+
+
+// 4️⃣   Searching and getting Element Reference
