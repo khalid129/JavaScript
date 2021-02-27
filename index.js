@@ -1347,7 +1347,67 @@ console.log(Math.abs(-4.4));
 
 // 3️⃣   DOM Navigation
 
+// 1: document.documentElement
+    // Return the element that is root element of the document.
 
+//  2: document.body
+//  3: document.head
+
+//  4: document.body.childNodes (include TAB,ENETER, WHITESPACE)
+    // List the direct child only
+    
+//  5: document.children (without text node, only regular elements)
+//  6: document.childNodes.length
+
+
+// To finding the childNodes we use it
+    // document.body.hasChildNodes( )
 
 
 // 4️⃣   Searching and getting Element Reference
+
+// document.getElementById()
+// document.getElementsByClassName()
+// document.getElementsByTagName()
+// document.getElementsByName()
+
+// Queryselector return the first matching value where as 
+// QueryselectorAll return all the elements
+
+// document.querySelector('#heading').innerHTML = "changed";
+
+
+// 💯 Events in JavaScript 💯
+
+// HTML events are thing that happen with HTML elements
+// When JavaScript is used in HTML pages, JavaScript can react on these events
+
+// HTML Events
+// An HTML event can be something the browser does, or something a user does
+
+// Example of an events
+
+// An HTML web page has finished loading 
+// An HTML input field was changed
+// An HTML button was clicked
+// Often when events happen you may want to do something
+
+// JavaScript ley you execute code when events are detected
+
+// HTML allow events handler attribute, with JavaScript code, to be added to HTML elements
+
+
+//  1️⃣ 4 ways of writting Events in JavaScript
+
+// 1 Using inline events alert();
+// 2 By callling a function 
+// 3 using Inline events
+// 4 Using events listner
+
+//  2️⃣ Event object ?
+
+// Event object is the parent event of event objects for example
+// Mouseevent, focusEvent, KeyboarEvent etc
+
+//  3️⃣ MouseEvent in JavaScript
+

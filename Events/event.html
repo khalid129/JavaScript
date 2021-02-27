@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>Events</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <h1>Different Type of Events in JavaScript</h1>
+        <div class="event-div">
+            <a onclick="alert('ALways ready')"> <span>Simple Inline Alert events</span></a>
+        </div>
+        <div class="event-div">
+            <a onclick="callingFunction()"><span>By calling a function</span></a>
+        </div>
+        <div class="event-div">
+            <a><span id="thirdway">Inline events</span></a>
+        </div>
+        <div class="event-div">
+            <a> <span id="fourthway">Event Listner</span></a>
+        </div>
+    </div>
+</body>
+
+<script>
+    // 2nd way of calling a function
+    const callingFunction = () =>{
+        alert("Most common way of writting functions");
+    }
+
+    // 3rd way of calling a fucntion using anonymous function
+    // This way of writting fucntion can overwrite a function call
+
+    const thirdWay = document.getElementById("thirdway");
+    thirdWay.onclick = () =>{
+        alert("Inline Events function");
+    }
+    thirdWay.onclick = () =>{
+        console.log("Inline Events function");
+    }
+
+    // 4th way of writting a function
+    // This way can not over write the function call when it call multiple times
+
+    const fourthway = document.querySelector('#fourthway');
+    fourthway.addEventListener('click',()=>{
+        alert('Callback fucntion');
+    })
+
+    fourthway.addEventListener('click',()=>{
+        console.log('Callback fucntion');
+    })
+
+</script>
+</html>
