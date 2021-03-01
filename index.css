@@ -6,16 +6,23 @@
 
 
   /* DOM Navigation */
-*{
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  *{
   margin: 0;
   padding: 0;
+
 }
 
   .main-div{
     width: 100vw;
     height: 100vh;
     display: grid;
+    text-align: center;
     place-items: center;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgb(10, 243, 243);
   }
   .event-div{
@@ -26,3 +33,18 @@
     border-radius: 10px;
     cursor: pointer;
   }
+  #mouse{
+    padding: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+  }
+
+#box{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}

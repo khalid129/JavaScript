@@ -1410,4 +1410,15 @@ console.log(Math.abs(-4.4));
 // Mouseevent, focusEvent, KeyboarEvent etc
 
 //  3️⃣ MouseEvent in JavaScript
+// The Mouse Object
+// Event that occur when the mouse interact with the document belong to the MouseEvent Object
+
+//  4️⃣ KeyBoardEvent in JavaScript 
+// Event that occur when user press a key on the keyboard belong to the keyboardEvent Object
+
+//  5️⃣ Input Event in JavaScript 
+// The onchnage event occurs when teh value of an element has been changed.
+
+// For Radiobutton and checkboxes, the onchnage event occurs when 
+// the checked states has been changed.
 

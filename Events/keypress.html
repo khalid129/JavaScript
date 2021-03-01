@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>KeyPress</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div>
+            <p>A Function is Triggered when a user is pressing a key in the input field</p>
+            <br>
+            <input class="effect" type="text" style="height:2rem; font-size: 1rem;" onkeypress="keyPress()" onkeydown="keyDown()" onkeyup="keyUp()">
+            <br>
+            <p id="key"></p>
+        </div>
+    </div>
+
+    <script>
+        const keyPress = () =>{
+            document.getElementById("key").innerHTML = `You Press ${event.key} and its code is ${event.code}`;
+        }
+        const keyUp = () =>{
+            document.getElementById("key").innerHTML = `The key is UP`;
+         }
+        const keyDown = ()=>{
+            document.getElementById("key").innerHTML = `The key is Down`;
+        }
+    </script>
+</body>
+
+</html>

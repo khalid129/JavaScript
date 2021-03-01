@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>MouseUp Event</title>
+</head>
+<body>
+    <div class="main-div">
+    <p id="mouse" onmousedown="MouseDown()" onmouseup="MouseUp()">Click on the text The MouseDown function is triggered when 
+        the mouse is press down over teh paragraph and set the color of the text pt the red.
+        The MouseUp fucntion is triggered when the mouse is released, and set the color to the blue.
+    </p>
+</div>
+<script>
+    function MouseDown(){
+        document.getElementById("mouse").style.color="red";
+    }
+    function MouseUp(){
+        document.getElementById("mouse").style.color="blue";
+    }
+</script>
+</body>
+</html>

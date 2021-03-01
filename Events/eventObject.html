@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>Event Object</title>
+</head>
+<body>
+    <div class="main-div">
+        <h1>Let See What is the Events Object</h1>
+        <div class="event-div">
+            <a id="event-type">
+                 <span>Event Listner</span>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    const eventType = document.getElementById("event-type");
+    const checkEvent = () =>{
+        console.log(event);
+        console.log(event.target);
+        console.log(event.type);
+    }
+    eventType.addEventListener('click',checkEvent);
+</script>
+</html>
