@@ -569,6 +569,17 @@
 // console.log(mul(3));
 
 // 4️⃣    DESTRUCTING
+// The Destructing assignment syntax is a JavaScript expression that make it possible to unpack values from arrays, or 
+// properties from objects, into disctinct variables
+
+// => Array Destructing 🏳️
+
+const myBioData = ['Muhammad','Khalid',20];
+console.log(myBioData);
+
+let firstName = myBioData[0];
+let lastName = myBioData[1];
+let myAge = myBioData[2];
 
 
 // 5️⃣    OBJECT PROPERTIES
@@ -1266,7 +1277,7 @@
 
 // console.log(Math.abs(-345));
 // console.log(Math.abs(4-6));
-console.log(Math.abs(-4.4));
+// console.log(Math.abs(-4.4));
 
 
 // Math.ceil(); 🙋‍♂️
@@ -1421,4 +1432,126 @@ console.log(Math.abs(-4.4));
 
 // For Radiobutton and checkboxes, the onchnage event occurs when 
 // the checked states has been changed.
+
+// 💯 Time Based Events 💯
+
+// The window object allow execution of code at specified time intervals
+
+// These time intervals are called time events
+
+// The two key method to use with JavaScript are ;
+
+// setTimeout();
+// execute a function, after waiting a specified number of millisecond
+
+// setTimeout();
+// Same as SetTimeout(), but repeats the execution of the function continuously
+
+// 1️⃣ setTimeout()
+// The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+
+// 2️⃣ clearTimeout()
+// The clearTimeout() method clears a timer set with the setTimeout() method. The ID value returned by setTimeout() is used as the parameter
+
+// 3️⃣ setInterval()
+//  The setInterval() method calls a function or evaluates an expression at specified intervals (in milliseconds). 
+
+// 4️⃣ clearInterval()
+// The clearInterval() method clears a timer set with the setInterval() method. The ID value returned by setInterval() is used as the parameter.
+
+// 💯 Object Oriented in JavaScript 💯
+
+// 1️⃣ One is Object Literal
+// A JavaScript object literal is a comma-separated list of name-value pairs wrapped in curly braces.
+
+// Storing variable and function together in one container,
+// We can refer this as an Object
+
+// How to create an Object 🤔
+
+// 1st Way
+
+// let bioData =  {
+//     myName : "Khalid",
+//     age : 21,
+//     qualification : "BE",
+//     getData : function (){
+//         console.log(this.myName, this.age, this.qualification);
+//     }
+// };
+// bioData.getData();
+
+// 2nd Way no need to write function as well after ES6
+
+// let bioData =  {
+//     myName : "Khalid",
+//     age : 21,
+//     qualification : "BE",
+//     getData(){
+//         console.log(`My Name is ${this.myName} and my Age is ${this.age}`);
+//     }
+// };
+// bioData.getData();
+
+// 👉 What if we want object as a value inside an Object
+
+// let bioData =  {
+//     myName : {
+//         firstName : "Muhammad",
+//         lastName : "Khalid"
+//     },
+//     age : 21,
+//     qualification : "BE",
+//     getData(){
+//         console.log(`My Name is ${bioData.myName.firstName} ${bioData.myName.lastName} and my Age is ${bioData.age}`);
+//     }
+// };
+// bioData.getData();
+
+// 2️⃣ What is this Object? 
+
+// The definiton of "this" Obejct is that it contain the current context
+
+// The "this" object can ahve different values depending on where it is placed.
+
+// Example 1
+
+// console.log(this);
+
+// Example 2
+
+// function myName(){
+//     console.log(this);
+// }
+// myName();
+
+// Example 3
+
+// var info = "Khalid";
+// function mythis(){
+//     console.log(this.info);
+// }
+// mythis();
+
+// Example 4
+
+// const obj = {
+//     num :21,
+//     Number(){
+//         console.log(this.num);
+//     }
+// };
+// obj.Number();
+
+// This object will not work will arrow function
+
+// Example 5
+
+// const obj = {
+//     num :21,
+//     Number : () =>{
+//         console.log(this);
+//     }
+// };
+// obj.Number();
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>SetInterval</title>
+</head>
+<body>
+    <div class="main-div">
+        <div>
+            <p id="count">Can you Stop Me When I Reached at 5 🙋‍♂️ ?</p>
+            <button id="start" >Start</button>
+            <button id="stop">Stop</button>
+        </div>
+   </div>
+   <script>
+       const start = document.querySelector("#start");
+       const stop = document.querySelector("#stop");
+       const count = document.querySelector("#count");
+       let num = 0;
+       let timeref;
+
+        const startCount = ()=>{
+            count.innerHTML = `loading...... 👻`;
+             timeref = setInterval(() => {
+                 count.innerHTML = num;
+                 num++;
+             }, 1000);
+        }
+
+        const stopCount = ()=>{
+            clearInterval(timeref);
+        }
+       start.addEventListener('click',startCount);
+       stop.addEventListener('click',stopCount)
+   </script>
+</body>
+</html>

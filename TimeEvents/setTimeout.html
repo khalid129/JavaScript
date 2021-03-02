@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <title>setTimeout</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div>
+            <p id="myName">Want to Know My Name</p>
+            <button id="btn">Click Here</button>
+            <button id="stop">Stop</button>
+        </div>
+    </div>
+
+
+    <script>
+        const myName = document.querySelector("#myName");
+        const btn = document.querySelector("#btn");
+        let timeref;
+
+        const start = () => {
+            timeref = setTimeout(() => {
+                myName.innerHTML = "My Name is Khalid";
+            }, 3000);
+        }
+
+        const stops = () => {
+            clearTimeout(timeref);
+        }
+
+        btn.addEventListener('click', start);
+
+        const stopEvent = document.getElementById("stop")
+        stopEvent.addEventListener('click', stops);
+
+        function myFunction() {
+            alert("Your Time Up");
+        }
+    </script>
+</body>
+
+</html>
