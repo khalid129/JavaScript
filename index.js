@@ -574,16 +574,51 @@
 
 // => Array Destructing 🏳️
 
-const myBioData = ['Muhammad','Khalid',20];
-console.log(myBioData);
+// const myBioData = ['Muhammad','Khalid',20];
+// let firstName = myBioData[0];
+// let lastName = myBioData[1];
+// let myAge = myBioData[2];
+// console.log(myBioData);
 
-let firstName = myBioData[0];
-let lastName = myBioData[1];
-let myAge = myBioData[2];
+// Array destructing we can add the values here
+
+// let [firstName, lastName, myAge, myDegree = "BE"] = myBioData;
+// console.log(myDegree);
+
+// => Object Destructing 🏳️
+
+// const myBioData = {
+//     fName : "Muhammad",
+//     lName : "Khalid",
+//     age : 20
+// };
+// let Age = myBioData.age;
+// console.log(Age);
+
+// let {fName, lName, age, myDegree = "BE"} = myBioData;
+// console.log(age);
 
 
 // 5️⃣    OBJECT PROPERTIES
 
+// => we can use Dynamic properties
+// => When we use [Square Bracket] we have to deal will dynamic data
+// => We can also perform a mathematical operation in square Bracket
+
+// let myName = "Khalid";
+// const myBio = {
+//     [myName] :"hello I am here",
+//     [20+3] : "is my age"
+// }
+// console.log(myBio);
+
+// No need to write the key and value if both are same
+
+let myName = "khalid";
+let myAge = 20;
+
+const myBio = {myName,myAge}
+console.log(myBio);
 
 // 6️⃣    ARROW FUNCTION
 
@@ -616,9 +651,38 @@ let myAge = myBioData[2];
 // const sum = () =>`The sum of a and b is ${(a=5)+(b=6)}`;
 // console.log(sum());
 
-// 7️⃣    REST OPERATORS
+// 7️⃣    SPREAD OPERATORS
+// The spread operator is a new addition to the set of operators in
+// JavaScript ES6. It takes in an iterable (e.g an array) and expands 
+// it into individual elements. The spread operator is commonly used 
+// to make shallow copies of JS objects
+// mycolor and myFavouriteColor are same in second on we use {...} Spread Operator
 
-// 8️⃣    SPREAD OPERATORS
+// const color = ['red','green','blue'];
+// const mycolor = ['red','green','blue','white','black'];
+// const myFavouriteColor = [...color,'black','white'];
+// console.log(myFavouriteColor);
+
+// 8️⃣    REST PARAMETER
+// The rest parameter syntax allows a function to accept an indefinite 
+// number of arguments as an array
+
+// ES5
+// function sum(a,b,c,d){
+//     console.log(a+b+c+d);
+// }
+// sum(1,2,3,4);
+
+// ES6
+// function sum(...num){
+//     let total = 0;
+//     for (let i of num){
+//         total+=i;
+// }
+//     console.log(total);
+// }
+// sum(1,2,3,4);
+
 
 // 💯   ARRAYS IN JAVASCRIPT    💯
 
