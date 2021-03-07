@@ -683,6 +683,36 @@ console.log(myBio);
 // }
 // sum(1,2,3,4);
 
+// ES7 Features
+
+// var courses = ['SDA','WE','DBMS','HCI','SDA','AE','PS'];
+// console.log(courses.includes('HCI')); 
+
+// 💡 It return true if string found else false
+
+
+//ES8 Features
+
+// String Padding
+// Object.values()
+// Object.enteries()
+
+// const message = "Web developer";
+// console.log(message);
+// console.log("Web Developer".padStart(5));
+// console.log("Web Developer".padEnd(5));
+
+// const bio = {
+//     name : "Khalid",
+//     age : 20
+// };
+
+// console.log(Object.values(bio));
+
+// It return the key values pair in an array
+// console.log(Object.entries(bio));
+
+
 
 // 💯   ARRAYS IN JAVASCRIPT    💯
 
